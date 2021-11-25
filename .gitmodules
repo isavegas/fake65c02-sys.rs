@@ -1,0 +1,3 @@
+[submodule "fake65c02"]
+	path = fake65c02
+	url = https://gitea.isavegas.dev/kenzi/fake65c02

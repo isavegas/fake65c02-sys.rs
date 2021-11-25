@@ -1,0 +1,14 @@
+[package]
+name = "fake65c02-sys"
+version = "0.1.0"
+build = "build.rs"
+edition = "2021"
+
+[lib]
+name = "fake65c02_sys"
+
+[dependencies]
+libc = "0.2.107"
+
+[build-dependencies]
+cc = { version = "1.0.72", features = ["parallel"] }
